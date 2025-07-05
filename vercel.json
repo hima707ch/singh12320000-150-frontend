@@ -1,0 +1,14 @@
+{
+        "rewrites": [
+            {
+            "source": "/api/:path*",
+            "destination": "https://singh12320000-149-hima707chs-projects.vercel.app/api/:path*"
+            }
+        ],
+          "build": {
+                "env": {
+                "GENERATE_SOURCEMAP": "false",
+                "SKIP_PREFLIGHT_CHECK": "true"
+                }
+            }
+        }
